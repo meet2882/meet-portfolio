@@ -38,17 +38,34 @@
     <canvas id="artifact-canvas"></canvas>
 
     <!-- TOP HUD -->
-    <header
-        class="fixed top-0 left-0 w-full z-50 border-bottom border-zinc-800 bg-black/80 backdrop-blur-md px-6 py-4 flex justify-between items-center text-[10px] mono uppercase tracking-widest text-zinc-500">
-        <div class="flex gap-8">
-            <span class="text-white font-bold">MEET PATEL / Portfolio</span>
-            <span></span>
-        </div>
-        <div class="flex gap-8">
-            <span id="current-time">00:00:00</span>
-            <span class="text-white hidden md:block">EST. 2025</span>
-        </div>
-    </header>
+<header
+    class="fixed top-0 left-0 w-full z-50 border-bottom border-zinc-800 bg-black/80 backdrop-blur-md px-6 py-4 flex justify-between items-center text-[10px] mono uppercase tracking-widest text-zinc-500">
+
+    <div class="flex gap-8">
+        <span class="text-white font-bold">MEET PATEL / Portfolio</span>
+        <span></span>
+    </div>
+
+    <div class="flex items-center gap-5">
+        <span id="current-time">00:00:00</span>
+        <span class="text-white hidden md:block">EST. 2025</span>
+
+        <!-- DOWNLOAD CV BUTTON -->
+        <a href="./assets/Meet_Patel_Resume.pdf"
+           download="Meet_Patel_Resume.pdf"
+           class="cssbuttons-io">
+
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 256 256"
+                     fill="currentColor">
+                    <path d="M224 144v64a8 8 0 0 1-8 8H40a8 8 0 0 1-8-8v-64a8 8 0 0 1 16 0v56h168v-56a8 8 0 0 1 16 0ZM120 176a8 8 0 0 0 11.31 0l48-48a8 8 0 0 0-11.31-11.31L136 148.69V24a8 8 0 0 0-16 0v124.69l-32-32A8 8 0 0 0 76.69 128Z"/>
+                </svg>
+                Download CV
+            </span>
+        </a>
+    </div>
+</header>
 
     <main class="relative z-10 pt-20">
 
